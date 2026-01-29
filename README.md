@@ -23,7 +23,7 @@ The firmware is designed to be fast, robust, and energy-efficient. It localizes 
 The system is built on the **ESP-IDF** framework and leverages **FreeRTOS** for concurrent task management.
 
 - **Concurrency**: Separate FreeRTOS tasks for each sensor, the GUI, and Wi-Fi communication, using thread-safe queues for data exchange.
-- **Graphics**: Custom driver-based library (**dispcolor**) for SPI display updates. (added via submodules. Credits to: [Electronics in focus](https://www.youtube.com/channel/UChButpZaL5kUUl_zTyIDFkQ)
+- **Graphics**: Custom driver-based library (**dispcolor**) for SPI display updates. Added via submodules, credits to: [Electronics in focus](https://www.youtube.com/channel/UChButpZaL5kUUl_zTyIDFkQ).
 - **Connectivity**: Wi-Fi station mode sending JSON-formatted data via **UDP** to minimize overhead.
 - **Power Optimization**: Implementation of low-power modes for sensors and task suspension based on the active UI screen.
 
