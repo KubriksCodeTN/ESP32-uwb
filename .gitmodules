@@ -1,0 +1,3 @@
+[submodule "components/dispcolor"]
+	path = components/dispcolor
+	url = https://github.com/liyanboy74/dispcolor.git
