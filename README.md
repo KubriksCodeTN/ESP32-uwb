@@ -1,6 +1,6 @@
 # IoT Relative Localization and Environmental Sensing System
 
-This project involves the development of high-performance firmware for an **ESP32-based** IoT device. The system integrates **UWB** technology for relative node localization and a suite of environmental sensors, all managed through a custom GUI on an LCD display.
+This project involves the development of firmware for an **ESP32-based** IoT device. The system integrates **UWB** technology for relative node localization and a suite of environmental sensors, all managed through a custom GUI on an LCD display.
 
 ## Overview
 
@@ -16,7 +16,9 @@ The firmware is designed to be fast, robust, and energy-efficient. It localizes 
   - **Temp/Humidity (SHT4X)**: For environmental monitoring.
   - **Brightness (TSL2591)**: For dynamic LCD backlight adjustment.
 - **Display**: 240x240 RGB LCD (SPI-based) 
-- **Inputs**: 3 physical buttons for UI navigation 
+- **Inputs**: 3 physical buttons for UI navigation
+
+![System Architecture](images/state.jpg)
 
 ## Software Architecture
 
