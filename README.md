@@ -32,3 +32,4 @@ The system is built on the **ESP-IDF** framework and leverages **FreeRTOS** for 
 ## Power Analysis Highlights
 
 A detailed power analysis was conducted using an oscilloscope and shunt resistor setup. The results can be found in the power_analysis/ folder
+![Measurement setup](images/shunt.jpg)
