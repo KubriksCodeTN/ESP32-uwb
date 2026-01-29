@@ -29,6 +29,4 @@ The system is built on the **ESP-IDF** framework and leverages **FreeRTOS** for 
 
 ## Power Analysis Highlights
 
-A detailed power analysis was conducted using an oscilloscope and shunt resistor setup:
-- **Main Consumers**: ESP32 (especially with Wi-Fi) and the LCD account for ~97-98% of total power.
-- **Efficiency**: Sensor consumption is negligible due to optimized polling rates and power-down states when not in use.
+A detailed power analysis was conducted using an oscilloscope and shunt resistor setup. The results can be found in the power_analysis/ folder
